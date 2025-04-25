@@ -29,7 +29,7 @@ def es_mayoritariamente_negra(imagen, threshold=BLACK_THRESHOLD):
     proporcion = pixeles_negros / total_pixels
     return proporcion >= threshold
 
-def import_data()
+def import_data():
     for archivo in tqdm(range(1, 251)):
         try:
             path_dwi = f"{rawdata_dir}/sub-strokecase{archivo:04d}/ses-0001/sub-strokecase{archivo:04d}_ses-0001_dwi.nii.gz"
