@@ -1,0 +1,6 @@
+path: E:/00. Kaggle/17. Yolo Brain Tumor/data_yolo # ruta absoluta hasta la carpeta raíz
+train: images/train
+val: images/val
+
+names:
+  0: Tumor
